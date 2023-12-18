@@ -150,12 +150,12 @@ if (url.includes("/x/resource/show/skin")) {
         )
     );
   }
-} else if (url.includes("/x/v2/search/square")) {
+} /*else if (url.includes("/x/v2/search/square")) {
   // 搜索框
   if (obj?.data) {
     obj.data = { type: "history", title: "搜索历史", search_hotword_revision: 2 };
   }
-} else if (url.includes("/x/v2/splash")) {
+}*/ else if (url.includes("/x/v2/splash")) {
   // 开屏广告
   if (obj?.data) {
     const item = ["account", "event_list", "preload", "show"];
